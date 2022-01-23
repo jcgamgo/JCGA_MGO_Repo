@@ -1,25 +1,17 @@
-#formContainer {
-    border: 1px solid black;
-    padding: 20px;
+.menu {
+    margin: 20px;
+
 }
-.label-form {
-    font-weight: bolder;
-    width: 100px;
-    padding-right: 30px;
-    float: left;
+
+.menu p {
+    background-color: lightblue;
+    width: 120px;
 }
-.container-button {
-    text-align: center;
+
+.menu a:hover {
+    color:red;
 }
-.send-button {
-    background-color: blue;
-    color:white;
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-    font-size: 14px;
-}
-.send-button:hover {
-    cursor:pointer;
-    background-color: lightskyblue;
+
+.menu a:visited {
+    color:green;
 }

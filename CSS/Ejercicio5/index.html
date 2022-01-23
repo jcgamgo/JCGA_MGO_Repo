@@ -2,33 +2,23 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Ejercicio 3.6</title>
+        <title>Ejercicio 3.5</title>
         <link rel="stylesheet" href="style.css"
     </head>
     <body>
-        <div class="container">
-            <div class="info-container">
-                <div>
-                    <img src="https://via.placeholder.com/100" alt="Imágen de la clínica">
-                </div> 
-                <div class="contact-container">   
-                    <p class="title">Centro de salud</p>
-                    <p class="subtitle">Medicina general</p>
-                    <div class="buttons-container">
-                        <button class="button book">Reservar cita</button>
-                        <button class="button budget">Pedir presupuesto</button>
-                    </div>    
-                </div>
-            </div>    
-            <div class="comments-container">
-                <div class="comments">    
-                    <p>10 comentarios</p>
-                    <p>Ver comentarios</p>
-                </div>
-                <div class="mark">    
-                    <p>8,9</p>
-                </div>
-            </div>       
-        </div>    
+        <form action="POST" id="formContainer">
+            <label class="label-form" for="firstname">Nombre</label>
+            <input type="text" name="firstname">
+            <br>
+            <label class="label-form" for="mail">Email</label>
+            <input type="mail" name="mail">
+            <br>
+            <label class="label-form" for="comments">Comentarios</label>
+            <textarea name="comments"></textarea>
+            <br>
+            <div class="container-button">
+                <button class="send-button" type="submit">Enviar</button>
+            </div>
+        </form>
     </body>
 </html>

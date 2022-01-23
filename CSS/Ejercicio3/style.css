@@ -1,17 +1,19 @@
+body {
+    margin: 0;
+}
+
 .menu {
-    margin: 20px;
-
+    margin: 0;
+    background-color: black;
+    color: white;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
 }
 
-.menu p {
-    background-color: lightblue;
-    width: 120px;
-}
-
-.menu a:hover {
-    color:red;
-}
-
-.menu a:visited {
-    color:green;
+.menu li:hover {
+    color: pink;
 }
